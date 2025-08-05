@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen bg-green-900/20 flex flex-col items-center'>
+      <div className='w-full h-screen flex flex-col items-center'>
         <BrowserRouter>
           <Routes>
             <Route element={<MainLayout />}>
