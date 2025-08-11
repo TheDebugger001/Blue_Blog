@@ -1,0 +1,19 @@
+{
+   "article": [
+      {
+         "title": "Travel",
+         "description": "lorem ipsum san sdoie sdfi nasdfasdf asvjoasdf fkjdsfio saddfsd dff sdfkjsdfkds ifsdf sdxcsdn ksdfkdsnkvnkcxznvks",
+         "image": "../images/Beach.jpeg"
+      },
+      {
+         "title": "Hiking",
+         "description": "lorem ipsum san sdoie sdfi nasdfasdf asvjoasdf fkjdsfio saddfsd dff sdfkjsdfkds ifsdf sdxcsdn ksdfkdsnkvnkcxznvks",
+         "image": "../images/night-beach.jpeg"
+      },
+      {
+         "title": "Lakes & Seas",
+         "description": "lorem ipsum san sdoie sdfi nasdfasdf asvjoasdf fkjdsfio saddfsd dff sdfkjsdfkds ifsdf sdxcsdn ksdfkdsnkvnkcxznvks",
+         "image": "../images/clear-beach.jpeg"
+      }
+   ]
+}

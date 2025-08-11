@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
    <>
-      <div className={scrolled ? `w-12/12 h-1/12 fixed z-10 overflow-hidden bg-blue-950 flex items-center justify-around transition duration-300` : `w-12/12 h-1/12 fixed z-10 overflow-hidden flex items-center justify-around transition duration-300`}>
+      <div className={scrolled ? `w-12/12 h-1/12 fixed z-100 overflow-hidden bg-blue-950 flex items-center justify-around transition duration-300` : `w-12/12 h-1/12 fixed z-10 overflow-hidden flex items-center justify-around transition duration-300`}>
          <div className='w-4/10 h-full flex items-center justify-between'>
             <div className='w-1/5 h-full bg-red-500/30'></div>   
             <div className='w-5/8 h-full flex items-center justify-evenly'>
