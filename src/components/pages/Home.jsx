@@ -41,7 +41,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='w-full h-[30em] mt-10'>
+      <div className='w-full h-[5em] relative top-5 border-t-1 border-b-1 border-blue-950 bg-blue-700/5'>
+
+      </div>
+      <div className='w-full h-[25em] mt-20'>
         <Footer />
       </div>
    </div>
