@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Article_card from '../Article_card'
 import Footer from '../Footer'
 
 const Home = () => {
 
+  const [articles, setArticles] = useState(null)
+
   return (
    <div className='w-full min-h-screen absolute bg-green-900/10'>
       <div className='w-full h-[45em] rounded-b-2xl overflow-hidden relative -z-100'>
         <img src="images/alab-beach.jpeg" alt="" className='w-full h-full object-cover'/>
       </div>
-      <div className='w-full h-[45em] bg-black/40 absolute top-0 rounded-b-2xl'></div>
+      <div className='w-full h-[45em] bg-black/40 absolute top-0 rounded-b-2xl flex items-center'>
+        <div className='w-3/6 h-2/4 relative left-10 flex flex-col items-center gap-17'>
+          <p className='font-bold text-6xl text-orange-500 mt-20'>Find Your Travel Place</p>
+          <p className='text-lg text-gray-200/70 w-4/5 font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio ipsam culpa aperiam rerum, ex temporibus ipsum laboriosam quibusdam necessitatibus aliquam dicta illo, nostrum atque ad animi maxime? Nam, atque.</p>
+        </div>
+      </div>
 
       <div className='w-full h-[35em] flex flex-col items-center justify-evenly mt-10'>
         <div className='w-10/12 h-10 ml-40'>
@@ -23,7 +30,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='w-full h-[25em] bg-black mt-20 mb-2 flex justify-center rounded-xl'>
+      <div className='w-full h-[30em] bg-red-600'>
+
+      </div>
+
+      <div className='w-full h-[25em] bg-gray-950 mt-20 mb-2 flex justify-center rounded-xl'>
         <div className='w-5/8 h-8/9 flex flex-col gap-4 justify-center relative left-20'>
           <p className='text-gray-200 text-4xl font-semibold w-4/6'>Subscribe to our newsletter to receive our news</p>
           <p className='text-gray-200 font w-3/5 text-sm font-light'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus reprehenderit corporis quibusdam dolorum quae ducimus</p>
@@ -41,9 +52,13 @@ const Home = () => {
         </div>
       </div>
 
+
+      {/* Different helpers like companies or other organization which helps us in different things  */}
       <div className='w-full h-[5em] relative top-5 border-t-1 border-b-1 border-blue-950 bg-blue-700/5'>
 
       </div>
+
+      {/* Footer starts here */}
       <div className='w-full h-[25em] mt-20'>
         <Footer />
       </div>
